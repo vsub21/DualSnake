@@ -1,3 +1,6 @@
+/* <!-- Defines the applet element used by the appletviewer. -->
+<applet code="DualSnake.class" width=502 height=930></applet> */
+
 import java.applet.Applet;
 import java.awt.BorderLayout;
 import java.awt.Button;
@@ -14,6 +17,7 @@ import java.awt.event.KeyListener;
 import java.awt.Font;
 import java.util.Vector;
 import javax.swing.JPanel;
+
 
 public class DualSnake extends Applet implements KeyListener, ActionListener {
 	int x;
@@ -43,7 +47,7 @@ public class DualSnake extends Applet implements KeyListener, ActionListener {
 	public static boolean paused;
 	public static boolean restart;
 
-	String bgPath = "../snake-bgFINAL.png";
+	String bgPath = "snake-bgFINAL.png";
 	Image bg;
 
 	public void init() {
