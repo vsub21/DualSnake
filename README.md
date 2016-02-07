@@ -6,6 +6,6 @@ The concept of the game is simple; there are two snakes, one red and one blue, e
 
 This game is meant to be played with either one player controlling both snakes (a quite challenging feat) or with two players cooperatively.
 
-Coded in Java and runs as an applet.
+Coded in Java and runs as an applet. To run, navigate Terminal/CMD to DualSnake/src and type "appletviewer DualSnake.java".
 
-Can be viewed at https://github.com/vsub21/DualSnake
+Project can be viewed at https://github.com/vsub21/DualSnake .
